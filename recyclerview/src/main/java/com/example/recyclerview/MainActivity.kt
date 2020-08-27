@@ -23,6 +23,6 @@ class MainActivity : AppCompatActivity() {
         phoneList.layoutManager = LinearLayoutManager(this)
         phoneList.adapter = adapter
     }
-
+//asadsa
 
 }
