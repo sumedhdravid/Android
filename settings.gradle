@@ -1,2 +1,7 @@
+
 include ':app'
-rootProject.name = "Calculator"
+
+include ':recyclerview'
+include ':app'
+rootProject.name = "OnlineAndroid"
+
