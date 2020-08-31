@@ -1,4 +1,4 @@
-
+include ':broadcastreceivers'
 include ':app'
 
 include ':recyclerview'

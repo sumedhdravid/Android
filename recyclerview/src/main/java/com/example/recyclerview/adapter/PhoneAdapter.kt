@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recyclerview.R
-
+import java.util.ArrayList
 
 
 data class PhoneItem(
@@ -45,4 +45,7 @@ class PhoneAdapter(
     }
 
     override fun getItemCount() = dataSource.size
+    fun freshData(it: ArrayList<PhoneItem>?) {
+
+    }
 }
